@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+/*----------------------------- BODY -----------------------------*/
+
 body {
   width: 1911px;
     color: #fff;
@@ -12,7 +14,7 @@ body {
 .hero {
   background: url("../img/background_top.png");
   width: 1911px;
-  height: 889px;
+  height: 822px;
   position: absolute;
 }
 
@@ -29,21 +31,20 @@ body {
   flex-direction: column;
 }
 
-.container2 {
-  width: 1116px;
-  height: 298px;
-  border: 1px solid #ffc714;
-  position: relative;
-  bottom: -850px;
-  right: -371px;
-}
-
 .container {
   width: 1116px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+/*----------------------------- SECTION HERO -----------------------------*/
+
+.triangle_top {
+  height: 157px;
+  width: 1235px;
+  position: relative;
 }
 
 .header {
@@ -125,39 +126,87 @@ body {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 600;
-  display: flex;
-  flex-end;
 }
 
-.triangle_top {
-  height: 157px;
-  width: 1235px;
-  position: relative;
+span {
+  color: #ffc714;
+}
+
+/*----------------------------- SECTION RULES -----------------------------*/
+
+.container2 {
+  width: 1116px;
+  height: 298px;
+  border: 1px solid #ffc714;
+  margin-bottom: -2150px;
 }
 
 .triangle_bottom {
   height: 207px;
   width: 1643px;
   position: relative;
-  bottom: -933px;
+  bottom: -1236px;
   right: -271px;
 }
 
+.yellow_rules {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.yellow_rules_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/rectangle_yellow.png");
+  height: 62px;
+  width: 223px;
+}
+
+.billiard_rules,
+.rules_wrap {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules_wrap {
+  padding-top: 15px;
+}
+
+.billiard_img,
+.billiard_text {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
 .btn {
-  width: 211px;
-  height: 15px;
+  height: 102px;
+  width: 377px;
+  background: url("../img/button_shadow.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  width: 344px;
   color: #091a23;
-  font-family: "Montserrat - Semi Bold";
+  font-family: Montserrat;
   font-size: 20px;
   font-weight: 400;
-  line-height: 49.63px;
-  text-transform: uppercase;
-}
-
-.btn-background {
   background: url("../img/button_yellow.png");
-}
-
-span {
-  color: #ffc714;
 }
