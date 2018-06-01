@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 1911px;
+    color: #fff;
+}
+
+.hero {
+  background: url("../img/background_top.png");
+  width: 1911px;
+  height: 889px;
+  position: absolute;
+}
+
+.rules {
+  background: url("../img/background_bottom.png");
+  width: 1914px;
+  height: 1440px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container2 {
+  width: 1116px;
+  height: 298px;
+  border: 1px solid #ffc714;
+  position: relative;
+  bottom: -850px;
+  right: -371px;
+}
+
+.container {
+  width: 1116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 1116px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.invite {
+  display: flex;
+  align-items: flex-start;
+}
+
+.over {
+  width: 185px;
+  height: 60px;
+  font-family: Helvetica;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 22px;
+}
+
+.eth {
+  width: 465px;
+  height: 76px;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.in {
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.usd {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -120px;
+}
+
+.usd p {
+  font-family: Helvetica;
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.jackpot_img {
+  margin-top: -155px;
+}
+
+.blank {
+  width: 168px;
+  height: 355px;
+}
+
+.numbers {
+  width: 1116px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.num_text p {
+  font-family: Helvetica;
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.num_num {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.num_num p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-end;
+}
+
+.triangle_top {
+  height: 157px;
+  width: 1235px;
+  position: relative;
+}
+
+.triangle_bottom {
+  height: 207px;
+  width: 1643px;
+  position: relative;
+  bottom: -933px;
+  right: -271px;
+}
+
+.btn {
+  width: 211px;
+  height: 15px;
+  color: #091a23;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 49.63px;
+  text-transform: uppercase;
+}
+
+.btn-background {
+  background: url("../img/button_yellow.png");
+}
+
+span {
+  color: #ffc714;
+}
